@@ -7,7 +7,7 @@
         align-items: center;
         text-align: center;
         font-family: 'Archivo Narrow', sans-serif;
-        
+        background: url('assets/pexels-photo-1303098.jpeg');
       }
 
       .card {
@@ -17,11 +17,9 @@
         display: block;
         position: absolute;
         top: 50%;
-        left: 50%;
+        left: 45%;
         margin: -250px 0 0 -100px;
       }
-
-
 
       .front, .back, .page {
         transform-style: preserve-3d;
@@ -36,8 +34,17 @@
         padding: 40px;
       }
 
+      .back {
+        background: url('assets/pexels-photo-1303098.jpeg');
+      }
+
+      .signature {
+        height: auto;
+        width: 80%;
+      }
+
       .front {
-        background: url(Image_2.jpg) no-repeat center;
+        background: url('assets/cpic.jpg') no-repeat center;
         background-size: cover;
       }
       
