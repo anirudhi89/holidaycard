@@ -7,7 +7,11 @@
         align-items: center;
         text-align: center;
         font-family: 'Archivo Narrow', sans-serif;
-        background: url('assets/pexels-photo-1303098.jpeg');
+        background: url('assets/istockphoto-1066685262-612x612.jpg')  center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
       }
 
       .card {
@@ -17,7 +21,7 @@
         display: block;
         position: absolute;
         top: 50%;
-        left: 45%;
+        left: 55%;
         margin: -250px 0 0 -100px;
       }
 
@@ -35,11 +39,28 @@
       }
 
       .back {
-        background: url('assets/pexels-photo-1303098.jpeg');
+        background: url('assets/bg.jpg') center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        font-family: 'Cookie';
+        font-size: 165%;
+      }
+
+      .flip {
+        transform: scaleX(-1);
       }
 
       .signature {
         height: auto;
+        width: 80%;
+        padding-bottom: 0%;
+      }
+
+      .ssoe{
+        position: relative;
+        margin-top: 50%;
         width: 80%;
       }
 
@@ -51,14 +72,19 @@
       .card:hover .front {
         transform: rotateY(-160deg);
         box-shadow: 0 1em 3em 0 rgba(0, 0, 0, .2);
+        /* zoom: 150%; */
       }
 
       .card:hover .page {
         transform: rotateY(-159deg);
         box-shadow: 0 1em 3em 0 rgba(0, 0, 0, .2);
+        /* zoom: 150%; */
+
       }
 
       .card:hover .back {
-        transform: rotateY(-20deg);
+        transform: rotateY(-5deg);
         box-shadow: 0 1em 3em 0 rgba(0, 0, 0, .2);
+        /* zoom: 150%; */
+
       }
