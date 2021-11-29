@@ -83,7 +83,7 @@
       }
 
       .card:hover .back {
-        transform: rotateY(-5deg);
+        transform: rotateY(-10deg);
         box-shadow: 0 1em 3em 0 rgba(0, 0, 0, .2);
         /* zoom: 150%; */
 
