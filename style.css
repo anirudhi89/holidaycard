@@ -68,27 +68,27 @@
         background: url('assets/cpic.jpg') no-repeat center;
         background-size: cover;
       }
+
+        .card:hover .front {
+          transform: rotateY(-160deg);
+          box-shadow: 0 1em 3em 0 rgba(0, 0, 0, .2);
+          /* zoom: 150%; */
+        }
+  
+        .card:hover .page {
+          transform: rotateY(-159deg);
+          box-shadow: 0 1em 3em 0 rgba(0, 0, 0, .2);
+          /* zoom: 150%; */
+  
+        }
+  
+        .card:hover .back {
+          transform: rotateY(-20deg);
+          box-shadow: 0 1em 3em 0 rgba(0, 0, 0, .2);
+          /* zoom: 150%; */
+  
+        }
       
-      .card:hover .front {
-        transform: rotateY(-160deg);
-        box-shadow: 0 1em 3em 0 rgba(0, 0, 0, .2);
-        /* zoom: 150%; */
-      }
-
-      .card:hover .page {
-        transform: rotateY(-159deg);
-        box-shadow: 0 1em 3em 0 rgba(0, 0, 0, .2);
-        /* zoom: 150%; */
-
-      }
-
-      .card:hover .back {
-        transform: rotateY(-20deg);
-        box-shadow: 0 1em 3em 0 rgba(0, 0, 0, .2);
-        /* zoom: 150%; */
-
-      }
-
       .ssoe-logo {
         position: absolute;
         left: 0px;
