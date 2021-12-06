@@ -92,27 +92,31 @@
   
       }
 
-      @media(card:active) {
-        .card:hover .front {
-          transform: rotateY(-160deg);
-          box-shadow: 0 1em 3em 0 rgba(0, 0, 0, .2);
-          /* zoom: 150%; */
+     @media  screen and (max-width: 600px){
+       
+    @media (card:active) {
+      #newclass .front {
+        transform: rotateY(-160deg);
+        box-shadow: 0 1em 3em 0 rgba(0, 0, 0, .2);
+        /* zoom: 150%; */
         }
   
-        .card:hover .page {
-          transform: rotateY(-159deg);
-          box-shadow: 0 1em 3em 0 rgba(0, 0, 0, .2);
-          /* zoom: 150%; */
+      #newclass .page {
+        transform: rotateY(-159deg);
+        box-shadow: 0 1em 3em 0 rgba(0, 0, 0, .2);
+        /* zoom: 150%; */
   
         }
   
-        .card:hover .back {
-          transform: rotateY(-20deg);
-          box-shadow: 0 1em 3em 0 rgba(0, 0, 0, .2);
-          /* zoom: 150%; */
+      #newclass .back {
+        transform: rotateY(-20deg);
+        box-shadow: 0 1em 3em 0 rgba(0, 0, 0, .2);
+        /* zoom: 150%; */
   
         }
-      }
+      } 
+    }
+
       
       .ssoe-logo {
         position: absolute;
@@ -124,5 +128,5 @@
 
       .name {
          font-family: freight-neo-pro, sans-serif;
-         font-size: small;
+         font-size: 70%;
       }
